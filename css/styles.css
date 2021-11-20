@@ -120,15 +120,11 @@ body {
 /* Auth-nav */
 
 .envelope {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
 .smartphone {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -344,10 +340,19 @@ body {
 
   color: var(--title-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-text {
   margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .container-border {
@@ -373,7 +378,9 @@ body {
 }
 
 .team-link-icon {
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -381,8 +388,6 @@ body {
 }
 
 .team-svg {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -402,18 +407,17 @@ body {
 }
 
 .clients-link {
-  display: inline-flex;
+  display: flex;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   color: var(--color-icons);
 }
 
 .clients-svg {
-  width: 106px;
-  height: 60px;
   fill: currentColor;
 }
 
@@ -502,7 +506,9 @@ body {
 }
 
 .social-link {
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -511,8 +517,6 @@ body {
 }
 
 .social-svg {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
